@@ -1,6 +1,11 @@
 html{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     font-family: 'Work Sans';
+    font-size: 1rem;
+}
+nav > img{
+    margin-left: 1rem;
+    width: 10%;
 }
 a{
     color: black;
@@ -8,13 +13,39 @@ a{
 }
 nav>ul>li{
     list-style: none;
+    display: inline;
+}
+.registro{
+    margin-right: 1rem;
+}
+.navbar{
+    border-bottom: 0.09rem solid black;
+}
+.registro{
+    margin-right: 1rem;
+}
+nav > ul > li > button{
+    background-color: black;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border: none;
+}
+nav > ul > li > button:hover{
+    transition: 1s;
+    opacity: 0.8;
+    background-color: black;
 }
 
+nav > ul > li > button > a{
+    color: white;
+}
 .hero-img{
 
 }
 
-
+.black{
+    background-color: black;
+}
 
 /*PARALAX
 .example { background-image: url("image.png");

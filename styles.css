@@ -3,6 +3,8 @@ html{
     font-family: 'Work Sans';
     font-size: 1rem;
 }
+
+
 nav > img{
     margin-left: 1rem;
     width: 10%;
@@ -39,8 +41,13 @@ nav > ul > li > button:hover{
 nav > ul > li > button > a{
     color: white;
 }
-.hero-img{
 
+
+.hero-img {
+    display: flex;
+    flex-direction: column; /* Asegura que el texto se alinee en columna */
+    align-items: center; /* Centra horizontalmente el contenido interno */
+    text-align: center;
 }
 
 .black{

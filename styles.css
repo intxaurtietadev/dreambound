@@ -72,7 +72,8 @@
     align-items: center;
     text-align: center;
     background-image: url(assets/img/hero.png);
-    padding: 5rem 0 5rem;
+    background-size: cover;
+    padding: 17rem 0 17rem;
   }
   
   .black {
@@ -84,9 +85,6 @@
   /*      LOGIN & REGISTER    */
   /* ======================== */
 
-  .body-login{
-    background-image: ;
-  }
   .cover_box {
     position: fixed; /* Centra la caja en la pantalla */
     top: 50%;

@@ -286,6 +286,277 @@ button:hover {
   opacity: 0.8;
 }
 
+/* ======================== */
+/*        GENERADOR NARRATIVA */
+#generador {
+  text-align: center;
+  margin: 3rem auto;
+  padding: 2rem;
+}
+
+#generador h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #05190a;
+  margin-bottom: 1rem;
+}
+
+#inputPrompt {
+  width: 80%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+#generarBtn {
+  background-color: #05190a;
+  color: white;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#generarBtn:hover {
+  background-color: #404040;
+}
+
+#resultado {
+  margin-top: 2rem;
+  text-align: left;
+  width: 80%;
+  margin: 0 auto;
+}
+
+#resultado h3 {
+  font-size: 1.5rem;
+  color: #05190a;
+}
+
+/* ======================== */
+/*        MAPA DE SUEÑOS INTERACTIVO */
+#dream-map {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+#dream-map h2 {
+  font-size: 2rem;
+  color: #05190a;
+  margin-bottom: 1rem;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.dream-location {
+  background-color: #f0f0f0;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dream-location:hover {
+  background-color: #05190a;
+  color: white;
+}
+
+#dream-details {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+/* ======================== */
+/*        RELOJ DEL SUEÑO */
+#dream-clock {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+#dream-clock h2 {
+  font-size: 2rem;
+  color: #05190a;
+}
+
+#dream-clock p {
+  margin: 1rem 0;
+}
+
+#dream-time {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#dream-time-interpreta {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* ======================== */
+/*        GENERADOR DE SUEÑOS ALEATORIOS */
+#dream-generator {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+#dream-generator h2 {
+  font-size: 2rem;
+  color: #05190a;
+}
+
+#dream-generator button {
+  background-color: #05190a;
+  color: white;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#dream-generator button:hover {
+  background-color: #404040;
+}
+
+#dream-output {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* ======================== */
+/*        SUEÑOS COMUNES */
+#common-dreams {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+#common-dreams h2 {
+  font-size: 2rem;
+  color: #05190a;
+}
+
+.dream-common {
+  background-color: #f0f0f0;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 1rem;
+}
+
+.dream-common:hover {
+  background-color: #05190a;
+  color: white;
+}
+
+#dream-info {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* ======================== */
+/*        TU SUEÑO DEL DÍA */
+#dream-of-day {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+#dream-of-day h2 {
+  font-size: 2rem;
+  color: #05190a;
+}
+
+#dream-input {
+  width: 80%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+#dream-interpretation {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* ======================== */
+/*        TEST DE REALIDAD */
+#reality-test {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+#reality-test h2 {
+  font-size: 2rem;
+  color: #05190a;
+}
+
+#reality-test p {
+  margin: 1rem 0;
+}
+
+#test-questions {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* ======================== */
+/*        CALENDARIO LUNAR */
+#lunar-calendar {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+#lunar-calendar h2 {
+  font-size: 2rem;
+  color: #05190a;
+}
+
+#calendar {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+
   /* ======================== */
   /*        FOOTER            */
   /* ======================== */

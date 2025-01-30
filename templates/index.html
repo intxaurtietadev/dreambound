@@ -35,7 +35,7 @@
 </header>
 
 
-
+<main>
 <section id="generador">
   <h2>Genera tu Narrativa de Sueño</h2>
   <textarea id="inputPrompt" placeholder="Escribe palabras clave..."></textarea>
@@ -45,18 +45,72 @@
       <p id="outputText"></p>
   </div>
 </section>
+<section id="dream-map">
+  <h2>Mapa de Sueños Interactivo</h2>
+  <div class="map-container">
+    <div class="dream-location" onclick="viewDreamDetails('Sueños de vuelo')">
+      <p>Sueños de vuelo</p>
+    </div>
+    <div class="dream-location" onclick="viewDreamDetails('Pesadillas recurrentes')">
+      <p>Pesadillas recurrentes</p>
+    </div>
+    <div class="dream-location" onclick="viewDreamDetails('Sueños lúcidos')">
+      <p>Sueños lúcidos</p>
+    </div>
+  </div>
+  <div id="dream-details" class="details-popup"></div>
+</section>
 
-</body>
-<main>
+<section id="dream-clock">
+  <h2>Reloj del Sueño</h2>
+  <p>Ajusta el reloj para explorar cómo los sueños se relacionan con la hora del día.</p>
+  <input type="time" id="dream-time" onchange="showDreamInterpretation()">
+  <div id="dream-time-interpreta"></div>
+</section>
 
-<section></section>
 
-<section class="black"></section>
+<section id="dream-generator">
+  <h2>Generador de Sueños Aleatorios</h2>
+  <button onclick="generateDream()">Generar Sueño Aleatorio</button>
+  <div id="dream-output"></div>
+</section>
+
+<section id="common-dreams">
+  <h2>Explorador de Sueños Comunes</h2>
+  <div class="dream-common" onclick="showDreamInfo('Volar')">
+    <p>Volar</p>
+  </div>
+  <div class="dream-common" onclick="showDreamInfo('Caer')">
+    <p>Caer</p>
+  </div>
+  <div class="dream-common" onclick="showDreamInfo('Ser perseguido')">
+    <p>Ser perseguido</p>
+  </div>
+  <div id="dream-info"></div>
+</section>
+
+<section id="dream-of-day">
+  <h2>Tu Sueño del Día</h2>
+  <textarea id="dream-input" placeholder="Escribe tu sueño aquí..."></textarea>
+  <button onclick="interpretDream()">Interpretar Sueño</button>
+  <div id="dream-interpretation"></div>
+</section>
+
+<section id="reality-test">
+  <h2>Test de Realidad Onírico</h2>
+  <p>¿Estás soñando? Responde las siguientes preguntas para averiguarlo.</p>
+  <button onclick="startTest()">Iniciar Test</button>
+  <div id="test-questions"></div>
+</section>
+
+<section id="lunar-calendar">
+  <h2>Calendario Lunar de Sueños</h2>
+  <p>Explora cómo las fases de la luna pueden influir en tus sueños.</p>
+  <div id="calendar"></div>
+</section>
 </main>
 
-
-
-
 <footer></footer>
+</body>
 <script src="/static/script.js"></script>
 </html>
